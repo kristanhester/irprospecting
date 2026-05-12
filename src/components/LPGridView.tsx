@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import { ArrowLeft, Download, Gem, Mail, MapPin, Phone, Plus, Save, X } from 'lucide-react';
 import { useApp } from '../store';
-import { FILTER_GROUPS } from '../data/filters';
 import type { LP } from '../data/lps';
 
 function formatAum(m: number) {

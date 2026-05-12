@@ -20,7 +20,7 @@ export const GROUP_ORDER = ['us', 'ca', 'latam', 'emea', 'apac'] as const;
 
 export const SUB_REGIONS: SubRegion[] = [
   // ───────────────────────── UNITED STATES (parent: na) ─────────────────────────
-  { id: 'us-tristate',      label: 'Tri-State (NY/NJ/CT)', parent: 'na', groupId: 'us', groupLabel: 'United States', owner: 'OC-JR', dot: 'bg-blue-500',   usStates: ['NY','NJ','CT'], bbox: [-75.5, 39.5, -71, 42.2] },
+  { id: 'us-tristate',      label: 'Tri-State (NY/NJ/CT)', parent: 'na', groupId: 'us', groupLabel: 'United States', owner: 'OC-JR', dot: 'bg-blue-500',   usStates: ['NY','NJ','CT'], bbox: [-80, 39, -71, 45.5] },
   { id: 'us-northeast',     label: 'Northeast US',         parent: 'na', groupId: 'us', groupLabel: 'United States', owner: 'SL',    dot: 'bg-slate-400',  usStates: ['MA','ME','NH','VT','RI','PA'], bbox: [-81, 38.5, -66, 47.5] },
   { id: 'us-southeast',     label: 'Southeast US',         parent: 'na', groupId: 'us', groupLabel: 'United States', owner: 'SL',    dot: 'bg-violet-500', usStates: ['FL','GA','NC','SC','VA','AL','MS','LA','TN','KY','WV','AR'], bbox: [-95, 24, -75, 39] },
   { id: 'us-midwest',       label: 'Midwest US',           parent: 'na', groupId: 'us', groupLabel: 'United States', owner: 'OC',    dot: 'bg-amber-500',  usStates: ['IL','IN','IA','KS','MI','MN','MO','NE','ND','OH','SD','WI'], bbox: [-104, 36, -80, 49.5] },
